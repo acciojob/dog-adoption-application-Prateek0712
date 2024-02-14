@@ -7,36 +7,32 @@
 </head>
 
 <body>
+	<form>
+		<label FOR="name">Name</label>
+		<input id="name" placeholder=Name type="text">
+		
+		<label for="phone">Phone Number</label> 
+		<input id="phone" type="text" placeholder="Phone Number">
+	
+		<label for=address>Address</label>
+		<input id="address" type="text" placeholder="Address">
+		
+		<label for="checkbox">Have you ever lived with a Dog before ?</label>
+		<input id="checkbox" type="checkbox" value="Have you ever lived with a Dog before ?">
+		
+		<label for="multiselect">Please select your preferred breeds</label>
+		<select value="multiselect" multiple id="multiselect">
+			<option>Labrador</option>
+			<option>Pitbull</option>
+			<option>Golden retriver</option>
+		</select>
+		
+		<input id="submit" type="submit" value="Submit">
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-<form method="post">
-	<label for="name">Name</label>
-	<input id="name" type="text" name="name" placeholder="Name" required>
-	<br>
 
-	<label for="phone">Phone Number</label>
-	<input id="phone" type="text" name="phone" placeholder="Phone Number" required>
-	<br>
-
-	<label for="address"></label>
-	<input type="text" id="address" name="address" placeholder="Address" required>
-	<br>
-
-	<label for="checkbox">Have you ever lived with a Dog before?</label>
-	<input id="checkbox" type="checkbox" name="Have you ever lived with a Dog before?" value="Yes">
-	<br>
-
-	<label for="multiSelect"></label>
-	<select name="breeds" id="multiSelect" multiple>Please select your preferred breeds
-	<option value="Jungli">Jungli</option>
-	<option value="Desi">Desi</option>
-	<option value="vilaiti">Vilaiti</option>
-	<option value="galiKa">galiKa</option>
-	<option value="Masum">Masum</option>
-</select>
-<button type="submit">Submit Button</button>
-</form>
 </body>
 
 </html>
